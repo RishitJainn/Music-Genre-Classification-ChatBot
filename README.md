@@ -12,7 +12,7 @@ This dataset was used for the well-known paper in genre classification “Musica
 As it can be seen in the Table 1 drawn below the dataset consists of 1000 audio tracks each 30 seconds long. It contains 10 genres, each represented by 100 tracks. The tracks are all 22050Hz Mono 16-bit audio files in .wav format.
 
 #### CHATBOT DATASET 
-To train the model built for the chatbot, a custom dataset that comprised of a file with 6 primary tags (“greeting”, “goodbye”, “age”, “name”, “shop”, “hours”). For each tag, there were appropriate patterns and responses that define a conversation and a few possible questions and answers a conversation may have. 
+To train the model built for the chatbot, a custom dataset of .json format as given in the repository, that comprised of a file with 6 primary tags (“greeting”, “goodbye”, “age”, “name”, “shop”, “hours”) was used.. For each tag, there were appropriate patterns and responses that define a conversation and a few possible questions and answers a conversation may have. 
 
 ### MODELS
 #### 	Music Genre Classification Model
